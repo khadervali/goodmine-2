@@ -1,0 +1,56 @@
+#container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+ion-content, ion-header {
+  --background: #F4F4F4;
+}
+
+ion-header {
+  --ion-toolbar-background: #F4F4F4;
+}
+
+.ion-title {
+  color: #1B1C1D;
+  font-family: "Readex Pro";
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+}
+
+.ion-text, p {
+  color: rgba(27,28,29,0.7);
+  font-family: "Readex Pro";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.close-icon {
+  color: #00AFFF;
+  height: 24px;
+  width: 24px;
+  padding: 16px 0px !important;
+}
+
+.top-img {
+  height: 204px;
+  width: 375px;
+  padding: 12.5px 24.21px 0.5px 24.92px;
+}
+
+.top-image {
+  height: 191px;
+  width: 325.87px;;
+}
